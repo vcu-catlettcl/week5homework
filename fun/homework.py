@@ -25,7 +25,7 @@ def add_list_numbers(incoming_list):
     Add all the values together and return it.
     """
     incoming_list_sum = sum(incoming_list)
-    print incoming_list_sum
+    print(incoming_list_sum)
 pass
 
 
@@ -35,5 +35,5 @@ def longest_value_key(incoming_dict):
     Find the KEY that has a value with the highest length, use the len() function
     """
     longest_value_key_max = len(max(incoming_dict.keys))
-    print longest_value_key_max
+    print(longest_value_key_max)
 pass
